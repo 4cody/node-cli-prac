@@ -3,3 +3,14 @@
 //  eg  'node file3 Hello World'
 
 console.log(process.argv)
+
+console.log('Notice that words separated by spaces are added in the array.  We can retrieve those elements individually just like any other array.')
+
+console.log('\n')
+console.log(process.argv[2])
+console.log(process.argv[3])
+
+console.log('Try it again using additional words.')
+
+
+// Proceed to file4
